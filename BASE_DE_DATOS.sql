@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `rapido` (
+`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `usuario` varchar(30) NOT NULL ,
+  `palabras` int(11) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0 ;
